@@ -1,0 +1,120 @@
+/* css de category */
+
+.categorias {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding: 5px;
+  height: auto;
+  width: auto;
+  align-items: center;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px 5px #00000000;
+  display: inline-block;
+}
+
+.categorias:hover {
+  box-shadow: 0px 0px 15px 1px #0000003d;
+  background-color: white;
+}
+
+.categorias img {
+  width: auto;
+  height: auto;
+}
+
+.categorias a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.categorias p {
+  font-size: 14px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.custom-slick-slider {
+  width: 100%;
+  margin-top: 20px;
+  height: auto;
+}
+
+.custom-slick-slider img {
+  width: 100%;
+  height: 100%;
+}
+
+.custom-slick-slider .slick-prev,
+.custom-slick-slider .slick-next {
+  font-size: 15px !important;
+  z-index: 1 !important;
+}
+
+.custom-slick-slider .slick-dots {
+  bottom: 1px;
+  list-style: none;
+}
+
+.custom-slick-slider .slick-dots li button:before {
+  color: rgba(0, 0, 0, 0.418);
+}
+
+.custom-slick-slider .slick-prev:before,
+.custom-slick-slider .slick-next:before {
+  width: 46px;
+  height: 46px;
+  opacity: 0.7 !important;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+
+
+/* css del archivo category details */
+
+.prod_card {
+  height: 200px;
+  width: 200px;
+  margin: 20px;
+  box-shadow: 0px 0px 5px 1px #4d4d4d31;
+  transition: box-shadow 0.2s ease;
+}
+
+.prod_card img {
+  height: 200px;
+  width: 200px;
+}
+
+
+/* css del selected categories */
+.category-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 0;
+}
+
+.product_category_card {
+  height: auto;
+  width: 200px;
+  margin: 20px;
+  padding-bottom: 20px;
+  box-shadow: 0px 0px 5px 1px #4d4d4d31;
+  transition: box-shadow 0.2s ease;
+}
+
+.product_category_card img {
+  height: 200px;
+  width: 200px;
+}
+
+.product_category_card p {
+  text-align: center;
+}
+
+/* css del selectedcategories */
+
+.titulo-categorias {
+  padding: 10px;
+}
